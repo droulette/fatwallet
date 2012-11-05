@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+<% @favorites.each do |i| %>
+<%= i.company %>
+<% end %>
+</p>
+
+
+<%= link_to 'Edit', '#' %> |
+<%= link_to 'Back', '#' %>
